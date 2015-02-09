@@ -33,6 +33,75 @@ Here are some examples of what you can do with libswarm:
 * Organize your application as loosely coupled services from day 1,
   without over-engineering.
 
+
+# Libswarm
+#test cla insignificant
+*libswarm* is a toolkit for composing network services.
+
+It defines a standard interface for services in a distributed system to
+communicate with each other. This lets you:
+
+1. Compose complex architectures from reusable building blocks
+2. Avoid vendor lock-in by swapping any service out with another
+
+An extensive library of services is included, and you can also write
+your own using a simple API.
+
+Here are some examples of what you can do with libswarm:
+
+* Aggregate all your Docker containers across multiple hosts and
+  infrastructure providers, as if they were running on a single host.
+
+* Bridge your in-house DNS-based service discovery with that new shiny
+  Consul deployment, without getting locked into either.
+
+* Swap in a new clustering and service discovery system, without
+  changing any application code.
+
+* Collect logs across an in-house Mesos cluster, a Cloud Foundry
+  deployment and individual servers staggered in 3 different
+  datacenters, forward them to your legacy syslog deployment, then perform
+  custom analytics on them.
+
+* Simulate your entire service topology in a single process, then scale
+  it out simply by re-arranging adapters.
+
+* Organize your application as
+* 
+# Libswarm
+#test cla insignificant
+*libswarm* is a toolkit for composing network services.
+
+It defines a standard interface for services in a distributed system to
+communicate with each other. This lets you:
+
+1. Compose complex architectures from reusable building blocks
+2. Avoid vendor lock-in by swapping any service out with another
+
+An extensive library of services is included, and you can also write
+your own using a simple API.
+
+Here are some examples of what you can do with libswarm:
+
+* Aggregate all your Docker containers across multiple hosts and
+  infrastructure providers, as if they were running on a single host.
+
+* Bridge your in-house DNS-based service discovery with that new shiny
+  Consul deployment, without getting locked into either.
+
+* Swap in a new clustering and service discovery system, without
+  changing any application code.
+
+* Collect logs across an in-house Mesos cluster, a Cloud Foundry
+  deployment and individual servers staggered in 3 different
+  datacenters, forward them to your legacy syslog deployment, then perform
+  custom analytics on them.
+
+* Simulate your entire service topology in a single process, then scale
+  it out simply by re-arranging adapters.
+
+* Organize your application as
+
 ## Installation
 
 You can install `libswarm` in a few simple steps. You will need to make
